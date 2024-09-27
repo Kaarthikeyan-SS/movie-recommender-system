@@ -27,4 +27,4 @@ if user_input:
     recommendations=llm.predict(text=prompt)
     st.write(f"Recommendations for you:\n{recommendations}")
 else:
-    st.write("")
+    st.write("")
